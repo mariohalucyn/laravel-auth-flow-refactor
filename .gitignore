@@ -1,0 +1,42 @@
+# Environment and authentication files
+.env
+.env.backup
+.env.production
+auth.json
+
+# Laravel & framework-specific files
+/.phpunit.cache
+.phpunit.result.cache
+.phpactor.json
+
+# Dependency directories
+/vendor/
+node_modules/
+
+# Build and storage directories
+/public/build
+/public/hot
+/public/storage
+/public_html/storage
+/public_html/hot
+/storage/*.key
+/storage/pail
+
+# Development & editor files
+/.vscode
+/.idea
+/.fleet
+/.nova
+/.zed
+Homestead.json
+Homestead.yaml
+/.vagrant
+
+# Logs and debug files
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
